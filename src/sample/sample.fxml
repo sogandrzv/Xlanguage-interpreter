@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" prefHeight="431.0" prefWidth="361.0" style="-fx-background-color: #E3E4FA;" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="383.0" minWidth="383.0" prefWidth="383.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #E3E4FA;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <children>
+            <Button layoutX="114.0" layoutY="43.0" mnemonicParsing="false" onAction="#choose" prefHeight="65.0" prefWidth="126.0" style="-fx-background-color: #FBBBB9;" text="Choose" textAlignment="CENTER" textFill="#140202" />
+            <Button layoutX="114.0" layoutY="152.0" mnemonicParsing="false" onAction="#open" prefHeight="65.0" prefWidth="126.0" style="-fx-background-color: #FBBBB9;" text="Open The File" textFill="#140202" />
+            <Button layoutX="114.0" layoutY="264.0" mnemonicParsing="false" onAction="#compile" prefHeight="65.0" prefWidth="126.0" style="-fx-background-color: #FBBBB9;" text="Compile" textFill="#140202" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
